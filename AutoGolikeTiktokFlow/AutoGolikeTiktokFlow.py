@@ -1,3 +1,5 @@
+#cre : huongdev27
+#zalo : 0362166863
 import json
 import requests,os,time
 import socket
@@ -7,14 +9,14 @@ from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 import time
 import sys
-banner = f"""
+banner = """
 \033[1;33m████████╗██╗  ██╗██╗      ████████╗ ██████╗  ██████╗ ██╗  
 \033[1;35m╚══██╔══╝██║  ██║██║      ╚══██╔══╝██╔═══██╗██╔═══██╗██║
 \033[1;36m   ██║   ███████║██║ █████╗  ██║   ██║   ██║██║   ██║██║
 \033[1;37m   ██║   ██╔══██║██║ ╚════╝  ██║   ██║   ██║██║   ██║██║
 \033[1;32m   ██║   ██║  ██║██║         ██║   ╚██████╔╝╚██████╔╝███████╗
 \033[1;31m   ╚═╝   ╚═╝  ╚═╝╚═╝         ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝\n
-\033[1;97mTool By: \033[1;32mNguyen Thi       \033[1;97mPhiên Bản: \033[1;32m1.0     
+\033[1;97mTool By: \033[1;32mNguyen Thi         \033[1;97mPhiên Bản: \033[1;32m1.0     
 \033[97m════════════════════════════════════════════════  
 \033[1;97m[\033[1;91m❣\033[1;97m]\033[1;97m Facebook\033[1;31m : \033[1;97m nguyenthi.111019999
 \033[97m════════════════════════════════════════════════
@@ -23,7 +25,7 @@ os.system('cls' if os.name== 'nt' else 'clear')
 for x in banner:
   print(x,end = "")
   sleep(0.001)
-# print("\033[1;31mFacebook : \033[1;33mThi \033[1;33mDev\033[1;32m")   
+print("\033[1;31mBy : \033[1;33mThi \033[1;33mDev\033[1;32m")   
 
     # Nhập auth
 try:
